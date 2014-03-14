@@ -1,0 +1,5 @@
+assets/
+.idea/
+silverstripe-cache/
+silverstripe.log
+Migration/
