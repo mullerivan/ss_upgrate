@@ -2,4 +2,4 @@ assets/
 .idea/
 silverstripe-cache/
 silverstripe.log
-Migration/
+mainline.sql
