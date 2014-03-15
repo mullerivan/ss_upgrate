@@ -130,16 +130,28 @@
 				<h2><a href="http://www.mainlinetrack.co.nz"><img class="center" src="$BaseHref/themes/mainlinetrack/images/btn_mainline-commercials.png" alt="Go to Mainline Commercials Website" title="Go to Mainline Commercials Website" width="160" height="56" border="0"/></a><br /></h2>
 				<div id="newsletter">
 					<h4 style="margin: 10px 0 0 10px;">Get Our Newsletter</h4>
-					<%-- $NewsletterTrack --%>
+
 					<% include Subscription %>
 				</div>
-				<br/>
+
 				<div id="bookmark">
 					<a href="javascript:Bookmark2()" title="Add Page to bookmarks">
 						<img src="assets/Buttons/bookmark.jpg" />
 							<span id="bookmarklink"> Add page to Bookmarks</span>
 					</a>
-				</div>				
+				</div>
+
+                <br clear="all" />
+                <% if $SidebarContent %>
+                    $SidebarContent
+                <% else %>
+                    <%  loop $Parent %>
+                        $SidebarContent
+                    <%  end_loop %>
+                <% end_if %>
+
+
+
 			</div>
 
 

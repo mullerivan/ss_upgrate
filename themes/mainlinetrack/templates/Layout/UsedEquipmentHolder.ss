@@ -1,8 +1,7 @@
-<div id="specsheet">
-
+<div>
 	$Content
 	<div id="UsedEquipmentList">
-		<% control SortedChildren %>
+		<% loop $SortedChildren %>
 		<div class="UsedEquipmentDiv">
 		
 			<div class="UsedEquipmentPrice UsedEquipmentCell">
@@ -10,7 +9,9 @@
 			</div>
 			
 			<div class="UsedEquipmentImage UsedEquipmentCell">
-				<a href="$Link" title="Read more of &quot;{$Title}&quot;"><img align="left" src="$MainImage.MainImage.URL" class="mainimage" /></a>
+				<a href="$Link" title="Read more of &quot;{$Title}&quot;">
+                    <img align="left" src="$MainImageURL" class="mainimage" />
+                </a>
 			</div>
 			
 			<div class="UsedEquipmentTeaser UsedEquipmentCell">
@@ -21,6 +22,6 @@
 			<div class="clear"> </div>
 		</div>
 
-		<% end_control %>
+		<% end_loop %>
 	</div>
 </div>
