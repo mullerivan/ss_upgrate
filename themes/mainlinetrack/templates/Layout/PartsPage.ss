@@ -1,6 +1,6 @@
 <div id="specsheet">
-
-    <% include my_carousel %>
+<div class="nocollapse">
+  <div class="col-1-2">
 
 
 <h2>$Title</h2>
@@ -33,6 +33,13 @@
 	</tr>
 </table>
 <br />
+</div>
+  <div class="col-1-2">
+
+    <% include my_carousel %>
+</div>
+</div>
+
 
 <div id="rightBlockLinks">
 	<div id="enquire_button">

@@ -1,4 +1,4 @@
-<div id="myCarousel" class="carousel slide carousel-fade col-lg-8 col-offset-2" data-ride="carousel">
+<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
         <% loop $Picture %>
             <% if $First %>
@@ -14,11 +14,13 @@
     </div>
     </div>
     <br>
+    <div class="carousel-actions">
     <% loop $Picture %>
         <a id="$Name" href="#" onclick="changeActiveItem($pos);">
-            <img id="$Name" title="$Title" alt="$Title" src="$PaddedImage(90,51).URL">
+            <img class="mc-thumb" id="$Name" title="$Title" alt="$Title" src="$PaddedImage(90,51).URL">
         </a>
     <% end_loop %>
+    </div>
 </div>
 <script>
 

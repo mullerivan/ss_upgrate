@@ -304,10 +304,17 @@ img.lspace {
     background-color: #fff;
 }
 
-#sidebar p a img {
-    padding-top: 10px;
-}
 
+img.leftAlone, img.left {
+  border: 3px solid whitesmoke;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+img.leftAlone:hover, img.left:hover {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+}
+.carousel-actions{
+  text-align: center;
+}
 #navigation {
     width: 160px;
     float: left;
