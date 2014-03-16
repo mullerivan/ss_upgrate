@@ -266,6 +266,7 @@ img.lspace {
     top: 100%; /*Move it vertically 100% of the <li>. Stable method*/
     left: 0; /*Set a left coordinate instead of relying on auto positioning.*/
     margin-left: -999em; /*Move it off the screen with a huge negative left margin. Very stable*/
+    z-index: 99; /* move it up! */
     border-bottom: 1px solid #302d2c;
 }
 
