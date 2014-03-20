@@ -4,8 +4,8 @@ global $project;
 $project = 'mainline_new';
 
 global $database;
-$database = 'mainlinetrack';
-#$database = 'mainline_new';
+#$database = 'mainlinetrack';
+$database = 'mainline_new';
 
 require_once('conf/ConfigureFromEnv.php');
 FulltextSearchable::enable();

@@ -72,7 +72,7 @@
     <server>localhost</server>
     <type>MYSQL</type>
     <access>Native</access>
-    <database>mainlinetrack</database>
+    <database>mainline_new</database>
     <port>3306</port>
     <username>root</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10bef2a6d7</password>

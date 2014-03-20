@@ -91,8 +91,11 @@ class Page_Controller extends ContentController
         $actions = new FieldList(
             new FormAction('doProductInquiry', 'Submit')
         );
+        $validations =  new RequiredFields( // validation
+            'Name', 'Email','Questions'
+        );
 
-        return new Form($this, 'doProductInquiry', $fields, $actions);
+        return new Form($this, 'doProductInquiry', $fields, $actions,$validations );
     }
 
 
