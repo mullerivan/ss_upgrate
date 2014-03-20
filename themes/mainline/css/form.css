@@ -115,3 +115,6 @@ label.right {
 	padding: 1px;
 	margin: -22px 10px 0 0;
 }
+#content > div.left {
+    float: left;
+}
