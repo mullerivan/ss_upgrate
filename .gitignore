@@ -1,0 +1,6 @@
+_ss_environment.php
+assets/*
+silverstripe.log
+mainline_both.sql
+silverstripe-cache/
+.idea/
