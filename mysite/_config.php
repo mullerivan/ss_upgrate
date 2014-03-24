@@ -4,9 +4,9 @@ global $project;
 $project = 'mysite';
 
 global $database;
-$database = 'devnzcommercials';
+//$database = 'devnzcommercials';
 //$database = 'mainlinetrack';
-//$database = 'mainline_new';
+$database = 'mainline_new';
 
 
 

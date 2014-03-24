@@ -99,7 +99,7 @@
 					</a>
 				</div>
 
-				<h2><a href="photo-gallery/"><img class="center" src="assets/Buttons/photo-gallery.jpg" alt="Link to Photo Gallery" title="Link to Photo Gallery" width="160" height="70" /></a><br /></h2>
+
 
 				<div id="newsletter">
 					<h4 style="margin: 10px 0 0 10px;">Get Our Newsletter</h4>

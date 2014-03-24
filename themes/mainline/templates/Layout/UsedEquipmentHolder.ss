@@ -15,7 +15,7 @@
 			</div>
 			
 			<div class="UsedEquipmentTeaser UsedEquipmentCell">
-				<h1>$Title</h1>
+				<h1><a href="$Link" title="Read more of &quot;{$Title}&quot;">$Title</a></h1>
 				$Content.LimitWordCount(40)
 				<a href="$Link" title="Read more on &quot;{$Title}&quot;">Read more &gt;&gt;</a>
 			</div>
