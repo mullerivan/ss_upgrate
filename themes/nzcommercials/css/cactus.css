@@ -1,0 +1,923 @@
+/* CSS Reset **************** */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+table {	border-collapse:collapse; border-spacing:0; margin: 0 ; }
+td { vertical-align:top;}
+fieldset,img { border: none;}
+address,caption,cite,code,dfn, strong,th,var { font-style:normal; font-weight:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 {	font-size:100%;	font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+/* CSS Reset End ************* */
+
+body { margin:10px 0 0 0; font:9pt Arial, Helvetica, sans-serif; line-height:14pt; color: #333; background:#CCC;}
+strong { font-weight:bold; }
+em { font-style:italic; }
+p { margin:0 0 10px 0; }
+
+.typography h1, .typography h1 a, h1 { 
+	margin:0 0 10px 0;
+	font:2em "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	color:#383035; 
+	text-align:left;
+}
+
+.typography h2, .typography h2 a, h2 { 
+	margin:0 0 5px 0; 
+	font:11pt Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	color:#01467A;
+	font-weight:bold;
+	text-align:left;
+	text-transform:uppercase;
+}
+
+.typography h3, .typography h3 a, h3  { 
+	font-size:11pt;
+	font-weight: bold;
+	margin:0 0 0 0;
+	text-align:left;
+	text-decoration:none;
+	color:#450003 !important;
+}
+
+.typography h4, .typography h4 a, h4 {	
+	color: #ffffff;	
+	padding: 7px; 
+	font-weight: bolder; 
+	clear: both;
+	font-size: 24px;
+	line-height: 27px;
+	text-align: center;
+}
+
+hr { margin:20px 0 20px 0; clear:both; }
+.hr { height:1px; line-height:1px; margin:15px 0 15px 0; clear:both; border-bottom:1px solid #9F9995; }
+.vc { vertical-align:middle; }
+.fright { float:right;}
+
+a, .typography a, .typography h1 a, .typography h2 a, .typography h3 a {
+	color:#A1140B;
+	text-decoration:underline;
+
+}
+.typography a:visited { }
+a:hover, .typography a:hover   {
+	text-decoration:none;
+	border:none;
+
+}
+.typography a:active  { }
+
+ul.bullets li {
+	font-size:9pt;
+	color:#111;
+	list-style:square !important;
+}
+
+ul.checkmarks li {
+	font-size:10pt;
+	color:#111;
+	line-height:20px;
+	background:url(/themes/nzcommercials/images/checkmark-bullet.png) no-repeat 0 3px;
+	padding:0 0 0 22px;
+}
+
+blockquote { }
+
+fieldset { border:1px solid #ccc;}
+legend { }
+
+.txtfield { border:1px solid #ccc; }
+.w250 { width:250px; }
+
+.btn_yellow { background:#9F1215; border:1px solid #7C1012; color:#fff; padding:5px; width:200px; }
+.btn_yellow:hover { background:#9F1215; border:1px solid #890D0F; color:#fff; padding:5px; }
+
+.btn_yellow_short { background:#9F1215; border:1px solid #7C1012; color:#fff; padding:5px; width:120px; }
+.btn_yellow_short:hover { background:#BA2124; border:1px solid #890D0F; color:#fff; padding:5px; }
+
+.red { color:#9E1416;}
+
+img.rspace { margin:0 15px 0 0; }
+img.lspace { margin:0 0 0 15px; }
+
+.slider {
+	height:150px;
+}
+
+#container {
+	width:960px;
+	padding:10px;
+	margin:0 auto;
+	background:#fff;
+}
+
+#header {
+	height:90px; 
+	background:#fff;
+}
+
+	#header a { border:none; }
+	
+	#phone {
+			float:right;
+			width:165px; 
+			height:25px; 
+			position:relative;
+			top:14px;
+			z-index:3;
+			font-size:1.9em;
+			line-height:25px;
+			text-align:right;
+			background:url(../images/icon_phone.png) no-repeat center left;
+	}
+	
+	#tagline {
+		float:right;
+		clear:right;
+		width:450px;
+		position:relative;
+		top:25px;
+		text-align:right;
+	}
+		#tagline h2 {
+			margin:0;
+			padding:0;
+			font-size:1.3em;
+			font-weight:normal;
+			color:#444;
+			text-align:right;
+			text-transform:none;
+		}
+	
+	/* IncludedSearch */
+	#inclSearch {
+		width:300px;
+		float:right;
+		clear:right;
+		/* top:20px;*/
+		position:relative;
+		text-align:right;
+		padding-left:0;
+	}
+	
+	form#SearchForm_SearchForm {
+		width:300px !important;
+	}
+
+
+		#SearchForm_SearchForm_Search {
+			width:150px;
+			color:#aaa;
+			font-weight:normal;
+			float: right;
+			margin:0 4px 0 0;
+		}
+		
+	/* Search Results */
+	.searchResults h4 {
+		font-size:16px;
+		text-align:left;
+		padding-left:0;
+	}
+
+	/* Form 'action' button */
+	.Actions:before, .Actions:after {	/* Wrapper for Action Button, clearfix */
+		content:"";
+		display:table;
+	}
+
+	.Actions:after {
+		clear:both;
+	}
+	
+	.Actions {	/* iE6/7 */
+		zoom:1;
+	}
+
+	div#enquiry {
+		padding:15px 15px 0 15px;
+	}
+	
+
+	/* Clearfix */
+	.clearfix:before,
+	.clearfix:after {
+		content:"";
+		display:table;
+	}
+	.clearfix:after {
+		clear:both;
+	}
+	/* For IE 6/7 (trigger hasLayout) */
+	.clearfix {
+		zoom:1;
+	}
+	
+
+	/* Top Navigation */
+	#tabs {
+		height:40px; 
+		text-align:center;
+		background:#013D69 url(/themes/nzcommercials/images/tab_background.png) repeat-x top;
+	}	
+		#tab { list-style:none;/*No bullets*/ text-align:left; } 
+			#tab li { float:left; position:relative;/*New stacking context for the submenu which is AP'd*/ z-index: 10; /* required to be on top of page content */} 
+				#tab li a { 
+					display:inline-block; 
+					height:40px; 
+					line-height:40px; 
+					padding:0 10px 0 10px; 
+					color:#FFFFFF; 
+					text-decoration:none; 
+					border-left:1px solid #595351; 
+					border-right:1px solid #302d2c;
+					border-bottom:none; /* because of general a border bottom */
+				} 
+					#tab li li a {
+						background:#fff !important; /*9AB4CA*/
+						width:143px; 
+						color:#000;
+						height:30px; 
+						line-height:30px;
+						border-bottom:1px dotted #ccc;
+					} 
+					#tab li li a:hover { 
+						color:#fff !important;
+						background:#9E1416 !important;
+					} 
+					#tab li ul {
+						position:absolute;	/*Allow for the dropdown to work and work with it easily*/ 
+						top:100%;	/*Move it vertically 100% of the <li>. Stable method*/ 
+						left:0;		/*Set a left coordinate instead of relying on auto positioning.*/ 
+						margin-left:-999em;/*Move it off the screen with a huge negative left margin. Very stable*/ 
+						border-bottom:1px solid #302d2c;
+					} 
+					#tab li li {
+						float:none;	/*Unfloat it so it doesnt go in a line*/
+						list-style:none;	/*Remove bullets*/
+						white-space:nowrap;
+					}
+				#tab li:hover {
+					visibility:visible;	/*Fix an IE7 sticky bug*/
+				} 
+					#tab li:hover ul, #tab li.sfhover ul { 
+						margin-left:0; /*Set the left margin to 0 on hover, and the JS hover.*/ 
+					} 
+				#tab li ul.hideme {
+					visibility: hidden;
+				}
+				
+				#tab li a.current, #tab li a:hover {
+					background:#9E1416 url(/themes/nzcommercials/images/tab_background_active.png); 
+					color:#fff;
+				}
+
+
+
+				#tab li ul li a.current {
+					font-weight: bold;
+					color:#9E1416;
+				}
+
+
+				#tab li a.current { 
+					color:#fff; 
+				}
+				#tab li li a.current { 
+					color:#000;
+				}
+
+				#tab li a.section, #tab li a:hover {
+					background:#9E1416 url(/themes/nzcommercials/images/tab_background_active.png); 
+					color:#fff;
+				}
+				#tab li a.section { 
+					color:#fff; 
+				}
+				#tab li li a.section { 
+					color:#000;
+				}
+
+
+
+#divisions { width:880px; height:30px; margin:0 auto 5px auto; padding:0 10px 0 10px; border:1px solid #DBDBDB; background:#fff; line-height: 30px; }
+#divisions .divisions_entry {padding: 0 10px 0 0; font-weight: bold;}
+#divisions .divisions_entry a {color: #000;}
+
+/*#container { width:900px; margin:10px auto 0 auto; border:1px solid #DBDBDB; background-color:#fff; overflow: hidden; }*/
+
+	#sidebar { 
+		width:220px; 
+		margin:15px 0 0 0; 
+		padding:0 0 0 0; 
+		float:left; 
+		background-color: #fff;
+	}
+	
+	#sidebar p a img { 
+		padding-top: 10px; 
+	}
+	
+	#sidebar h4 {
+		margin:0;
+		padding-left:0;
+		font-size:16px;
+		color:#013E69;
+		text-align:left;
+	}
+	
+	#sidebar h5 {
+		font-weight:bold;
+	}
+	
+	#navigation {
+		margin:0 0 20px 0;
+	}
+	
+	#sidebar #navigation ul {
+		background:#fff;
+	}
+	#sidebar #navigation ul li {
+		text-indent:8px;
+		background:#fff;
+		line-height:25px;
+	}
+
+	#sidebar #navigation ul li a {
+		display:block;
+		background:none;
+		color:#333;
+		font-weight:normal;
+		font-size:14px;
+		border-bottom:1px dotted #ccc;
+		text-decoration:none;
+	}
+	
+	#sidebar #navigation ul li a:hover {
+		background:none;
+		border-bottom:1px dotted #ccc;
+		color:#A1140B;
+	}
+	
+	ul.productsMenu {
+		font-size:14px;
+	}
+	
+	ul.productsMenu li {
+		list-style-type: square;
+		margin-left: 15px;
+	}
+
+	ul.productsMenu li a {
+		display:block;
+		margin: 0 0 4px 0;
+	}
+
+	#navigation li a.current {
+		color:#9E1416 !important;
+		font-weight:bold !important;
+	}
+
+	#navigation li a.current:after {
+		content:" »";
+	}
+	
+
+
+.breadcrumbs {
+	font-size: 11px;
+	margin-bottom: 4px;
+}
+
+#content { padding:15px 15px 15px 0; width:680px; float:right; background-color: #fff; }
+#specsheet { width: 375px; float: right; overflow: hidden; padding:10px; border:1px solid #ccc; text-align: center;}
+#specsheet a { border:none;}
+#specimage { border:1px solid #ccc; float:right; margin:0 0 15px 0; width: 400px; }
+#specsheet h2 { font-size:14pt; font-weight:bold; color:#cda015; margin:0 0 5px 0; }
+#specsheet h1 { font-size:11pt; font-weight:bold; }
+#specs td { padding:2px 0 2px 0; border-bottom:1px solid #e8e8e8; font-size:10pt; }
+#specs td.legend { padding:0 7px 0 0; }
+
+/* Unused ? */
+table.photoOverview { border: none; }
+table.photoOverview tbody tr td { padding: 5px; border: none; }
+table.photoOverview tbody tr td img.centerOverview { margin: 5px; text-align: center; }
+
+table.borderless, table.borderless td { border:none; }
+table.tdCentered td { text-align:center; }
+
+
+.spacer { line-height:5px !important; height:5px !important; border:none !important;}
+.noborder { border:none !important;}
+
+#specthumbs { width:400px; float:right; clear:right; }
+#specthumbs td { padding:3px; text-align:center; vertical-align:middle; }
+
+/* Form */
+
+.noshow { 
+	display: none;
+}
+
+#Form_doProductInquiry_action_doProductInquiry{
+	margin-left: 15px;
+}
+
+input.requiredField {
+	background:#fff !important;
+}
+input:invalid, textarea:invalid { 
+	box-shadow: none;
+}
+input.required, textarea.required {
+	margin:0;
+	-moz-box-shadow: 0px 0px 5px red;
+    -webkit-box-shadow: 0px 0px 5px red;
+    box-shadow: 0px 0px 5px red;
+}
+
+/* Enquiry Form */
+#Form_doProductInquiry {
+	width:100%;
+}
+
+#enquiry fieldset {border: 0;}
+#enquiry .middleColumn {float: left; width: 96%; margin: 0; background-color: transparent;}
+
+#enquiry { margin:15px 0 0 0; padding:15px; border:1px solid #ccc; background:#e8e8e8; width:350px; }
+#enquiry h3 { font:10pt Verdana, Geneva, sans-serif; color:#014E85; margin:0 0 15px 0; font-weight:bold;}
+#enquiry label { width:120px; display:block; float:left; clear: both; margin:0; padding:0; }
+
+#footer { 
+	margin:0 auto; 
+	padding:15px 15px 0 15px;
+	clear:both;
+	background:#3D3938;
+	
+	background: -moz-linear-gradient(top, #3D3938 0%, #4d4847 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3D3938),  color-stop(100%,#4d4847));
+	background: -webkit-linear-gradient(top, #3D3938 0%,#4d4847 100%);
+	background: -o-linear-gradient(top, #3D3938 0%,#4d4847 100%);
+	background: -ms-linear-gradient(top, #3D3938 0%,#4d4847 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3D3938', endColorstr='#4d4847',GradientType=0 );
+	background: linear-gradient(top, #3D3938 0%,#4d4847 100%);
+}
+	#footer h4 {
+		font-size:1.5em;
+		font-weight:normal;
+		text-align:left;
+		margin:0;
+		padding:0;
+		color:#72AED8;
+	}
+	
+	#footer table td {
+		padding:0 15px 15px 15px;
+		vertical-align:top;
+		text-align:left;
+		width:25%;
+		color:#ccc;
+	}
+	
+	#footer p { 
+		line-height:normal;
+	}
+	
+	#footer ul li {
+		color:#ccc;
+		list-style: square;
+	}
+	
+	#footer ul {
+		margin:0 0 0 12px;
+	}
+	
+	#footer a {
+		color: #fff;
+		text-decoration:none;
+		border-bottom:1px dotted #fff;
+	}
+	#footer a:hover {
+		border-bottom:1px solid #fff;
+	}
+	
+	#footer .big {
+		font-size:16pt;
+	}
+
+#copyright {
+	width:960px;
+	padding:5px 10px 0 10px;
+	margin:0 auto;
+	clear:both;
+	font-size:8pt;
+	color:#555;
+}
+
+#copyright a {
+	color:#111;
+}
+#copyright a:hover {
+	text-decoration:none;
+}
+
+	#copyrightNavi { text-align:left; clear:both; }
+	#ftright    { float:right; text-align:right; width:400px; color:#777;}
+	#footerLeft { float: left; width: 400px;}
+
+#print_contact_info {display: none;}
+#print_disclaimer {
+	display: none;
+	width:95%;
+	padding:5px 10px 0 10px;
+	margin:0 auto;
+	clear:both;
+}
+
+#quicksearch {
+	width: 162px;
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+#quicksearch form {padding: 0; margin: 0;}
+#quicksearch fieldset {padding: 10px; margin: 0;}
+
+#quicksearch input {
+	font-size:0.9em;
+	font-weight:normal;
+	background-color: #eee;
+}
+
+#quicksearch #SearchForm_SearchForm .middleColumn {margin: 0;}
+
+#quicksearch #Search {
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+ul#SearchResults li {border-bottom: 1px solid #ccc; padding: 10px 0 10px 0;}
+
+#newsletter {
+	padding: 0;
+	margin: 0 0 10px 0;
+	overflow: hidden;
+	border: 1px solid #ccc;
+}
+
+#newsletter form {padding: 0; margin: 10px 0 0 0;}
+#newsletter fieldset {padding: 0 10px 10px 10px; margin: 0; border: 0;}
+
+/*
+#newsletter input#Form_Newsletter_YourEmail {
+	font-size:0.9em;
+	font-weight:normal;
+	background-color: #eee;
+	border: 2px solid #ccc;
+	color:#666666;
+	width: 130px;
+}		
+
+#newsletter input#YourPhone-Number {
+	font-size:0.9em;
+	font-weight:normal;
+	background-color: #eee;
+	border: 2px solid #ccc;
+	color:#666666;
+	width: 130px;
+	margin-bottom: 10px;
+}		
+
+#newsletter input#Form_Newsletter_YourName {
+	font-size:0.9em;
+	font-weight:normal;
+	background-color: #eee;
+	border: 2px solid #ccc;
+	color:#666666;
+	width: 130px;
+	margin-bottom: 10px;
+}		
+
+#newsletter input#Form_Newsletter_YourCompany {
+	font-size:0.9em;
+	font-weight:normal;
+	background-color: #eee;
+	border: 2px solid #ccc;
+	color:#666666;
+	width: 130px;
+	margin-bottom: 10px;
+}		
+
+#newsletter input#Form_Newsletter_action_subscribe {
+	margin: 0 10px 10px 10px;
+	font-size:1em;
+	font-weight:normal;
+}		
+
+#newsletter #Form_Newsletter .middleColumn {margin: 0; padding: 0 5px 0 0; width: 133px; background: white;}
+#newsletter .message {border: 0; color: #f34; font-size: 10px; margin:0; padding:0;}
+#newsletter label {font-size: 12px;}
+*/
+#newsletter h4 { font:9pt Arial, Helvetica, sans-serif; font-weight:bold; text-align: left; color: #444; padding: 0;}
+
+/* MailChimp form elements */
+#newsletter #mce-EMAIL {
+	width:99%;
+	padding:1px;
+	border:1px solid #cccccc; 
+	color: #555; 
+	background-color: #eee;
+	box-shadow:none;
+}
+
+#newsletter #mc-embedded-subscribe-form {
+	width: 100%;
+}
+
+#newsletter #mc-embedded-subscribe {	/* submit button */
+	padding:1px 6px 1px 6px;
+	margin-top:6px;
+	cursor: pointer;
+	cursor: hand;
+	-moz-box-shadow:inset 0px 1px 0px 0px #dcfae4;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #dcfae4;
+	box-shadow:inset 0px 1px 0px 0px #dcfae4;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3ad654), color-stop(1, #257a00) );
+	background:-moz-linear-gradient( center top, #3ad654 5%, #257a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3ad654', endColorstr='#257a00');
+	background-color:#3ad654;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0px;
+	border:1px solid #9bf285;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	font-style:normal;
+	height:33px;
+	line-height:33px;
+/*	width:105px;*/
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #166e00;
+}
+
+#newsletter #mc-embedded-subscribe:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #257a00), color-stop(1, #3ad654) );
+	background:-moz-linear-gradient( center top, #257a00 5%, #3ad654 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#257a00', endColorstr='#3ad654');
+	background-color:#257a00;
+}
+
+.galleryList .details {
+	font-size:0.9em;
+	line-height: 11px;
+}
+		
+		/**** UsedEquipmentHolder added by db@signetix.net****/
+		
+.UsedEquipmentImage{ float: left; padding: 5px; }
+.UsedEquipmentImage .mainimage{ width:120px; text-align: left; }
+.UsedEquipmentTeaser{ width:520px; /*min-height: 150px;*/}
+.UsedEquipmentPrice{ float: right; text-align: right; width:110px; }
+.UsedEquipmentPrice h1 {font-size: 11px !important;}
+.UsedEquipmentCell{ border:0px solid black; }
+.UsedEquipmentDiv{ border: 1px solid #d2d2d2; margin-bottom: 10px; padding: 5px;}
+.clear {clear:both;}
+
+#galleryoverview td {border: none; padding: 10px; vertical-align: top;}
+#galleryoverview p {font-weight: bold; text-align: center;}
+#galleryoverview h1 {font-size: 20px; color: #888; text-align: center; margin: 0;}
+
+.typography address {font-size: 12px; font-weight: bold; line-height: 18px;}
+
+#Form_Form {margin:15px 0 0 0; padding:15px; border:1px solid #ccc; background:#EFEDE0; width:330px;}
+#Form_Form h3 { font:10pt Verdana, Geneva, sans-serif; color:#cda015; margin:0 0 15px 0; font-weight:bold;}
+#Form_Form label { width:300px; display:block; float:left; clear: both;  font-size: 13px; margin-bottom: 0; }
+#Form_Form fieldset {border: none;}
+
+#bookmark {clear: both; overflow: auto; vertical-align: bottom; vertical-align: middle;}
+#bookmark a {text-decoration: none; font-weight: bolder; color: #666666; font-size: 13px; line-height: 14px; text-align: left;}
+#bookmark a:visited {color: #aaaaaa;}
+#bookmark a:hover   {color: #FEC60D;}
+#bookmark img {float: left; margin-right: 5px;}
+#bookmarklink {margin-top: 14px; display: block;}
+
+#intro p { padding: 15px;}
+
+#UsedEquipmentList {
+	clear: both;
+	overflow: auto;
+}
+
+#UsedEquipmentList .UsedEquipmentTeaser h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#enquiry #RecaptchaField {
+	width: 350px;
+	float: left;
+	margin: 10px 0 10px 0;
+}
+
+#Form_ProductInquireForm_error {
+	color: red;
+	font-weight: bold;
+	border: none !important;
+	background: none !important;
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0 0 15px 0;
+}
+
+#rightBlockLinks { width: 100%; margin: 0 0 20px 0; padding: 0; overflow: hidden;}
+#print_link {width: 165px; float: right; text-align: right; margin: 15px 0 0 0; padding: 0; }
+#back_link {width: 200px; float: right; text-align: right; margin: 15px 0 0 0; padding: 0; }
+#enquire_button {width: 140px; float: right; text-align: right; margin: 10px 0 0 0; padding: 0; }
+#print_link a, #back_link a, #sendToFriendLink a {text-decoration:none; color: #32327A; font-size: 10pt; line-height: 16px; font-weight: bold;}
+#print_link a img, #back_link a img, #sendToFriendLink a img { vertical-align: bottom;}
+#print_link a:hover, #back_link a:hover, #sendToFriendLink a:hover { color: #7777BC; }
+
+
+#viewLargePhotoLink { width: 400px; float: right; clear: both; text-align: center; padding: 5px; text-decoration: none; line-height: 16px; color: #9999BC; margin: 0 0 0 5px;}
+	#viewLargePhotoLink:hover { color: #7777BC; }
+	#viewLargePhotoLink img { margin-top: 3px;}
+
+.typography #RecaptchaField {margin: 10px 0;}
+.typography #RecaptchaField .message {color:#FF3344; border: 0; background-color: transparent; margin: 0; padding: 0;}
+
+#right_block {
+	overflow: hidden;
+	width: 402px;
+	float: right;
+	margin: 0; padding: 0;
+}
+
+#sendToFriendLink {
+	float: right;
+    padding-top: 15px;
+    text-align: right;
+    width: 160px;
+}
+
+.album-nav {
+    border-top: 1px solid #CCCCCC;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.album-nav li.prev {
+    float: left;
+    text-align: left;
+}
+
+.album-nav li.next {
+    float: right;
+    text-align: left;
+}
+
+.album-nav li .album-nav-desc {
+    float: left;
+    width: 75%;
+}
+
+.album-nav h5 {
+    text-align: left;
+    padding: 0;
+}
+
+.album-nav h4 {
+    text-align: left;
+    padding: 0;
+}
+
+/* Bullet List (Cactus) */
+ul.bullets li {
+	list-style:disc;
+}
+.txtleft {
+	text-align:left;
+}
+
+/* Newsletter (Cactus) */
+
+.newsItem{
+	background:#f0f0f0;
+	border:1px solid #ddd;
+	padding:10px;
+	margin:0 0 15px 0;
+}
+	.newsTitle a {
+		font-size:12pt;
+		text-align:left !important;
+		margin:0;
+		text-decoration:none;
+	}
+	.newsDate {
+		font-size:8pt;
+		color:#666;
+		margin:0 0 8px 0;
+	}
+	.newsSummary{
+		
+	}
+
+#pageFunctions {
+	width:60px; 
+	float:right;
+}
+
+#contact td  { 
+	border:none;
+}
+
+#contact td.label {
+	font-weight:bold;
+	color:#777;
+	padding-right:10px;
+}
+
+.website-update {
+	text-align:center;
+	font-weight:bold;
+	font-size:1em;
+}
+
+	.website-update strong {
+		text-decoration:underline;
+		color:#777;
+		font-size:1.3em;
+	}
+
+/* Google Maps Container Contact Page */
+.gmap {
+	float:right;
+	width:310px;
+	height:322px;
+}
+
+/* cactus-slider */
+.cactus-slider {
+	padding:0;
+	margin:0 0 12px 0;
+}
+
+/* Lightbox */
+#jquery-lightbox a, #jquery-lightbox a:hover {
+	border:none !important;
+}
+
+/* Moved Inline Styles */
+#navigation ul li a { background: url(/themes/nzcommercials/images/tab_background_active.png) repeat-x center right; }
+#prevLink:hover, #prevLink:visited:hover { background: url(themes/nzcommercials/images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(themes/nzcommercials/images/nextlabel.gif) right 15% no-repeat; }
+#footerNavigation { background:#3d3938 url(themes/nzcommercials/images/mainline_tab_bg.jpg) repeat-x top; clear: both; height: 25px; line-height: 25px; margin: 0 auto; text-align: center; width: 900px; }
+	#footerNavigation ul li   { float: left; padding:0 0 0 13px; }
+		#footerNavigation ul li:after { content: "|"; color:#666; padding-left:13px; }
+		#footerNavigation ul li:last-child:after { content: ""; padding-left:0;}
+	#footerNavigation ul li a { text-decoration:none; color:#f0f0f0; }
+	#footerNavigation ul li a:hover { text-decoration:underline; color:#FEDD2E; }
+
+
+/*section*/
+
+#tab li a.section, #tab li a:hover {
+    background:#9E1416 url(/themes/nzcommercials/images/tab_background_active.png);
+    color:#fff;
+}
+
+#tab li ul li a.section{
+    font-weight: bold;
+    color:#9E1416;
+}
+
+#tab li a.section {
+    color:#fff;
+}
+#tab li li a.section {
+    color:#000;
+}
+
+#navigation ul li a.section {
+    color:#9E1416 !important;
+    font-weight:bold !important;
+}
+#navigation li a.section:after {
+    content:" »";
+}

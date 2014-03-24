@@ -1,0 +1,33 @@
+#header { padding: 1% 1% 2% 1%; border-bottom: 2px solid #333; top:0; }
+#footer {  display:none; }
+#tabs {display:none;}
+#sidebar {display: none;}
+.btn_yellow {display: none;}
+#print_link {display: none;}
+
+#viewLargePhotoLink { display: none;}
+#tagline {display: none;}
+#rightBlockLinks {display: none;}
+#content {
+	width: 90% !important;
+	height:100%;
+	margin: 1% 5%;
+	padding: 0;
+	float: none !important;
+	font-size: 10pt;
+	overflow: visible !important;
+}
+
+h2 { font-size:14pt !important;}
+
+#container { border: 0; }
+#enquiry { display:none;}
+#copyrightNavi { display: none; }
+#header { height:auto !important; }
+#print_contact_info {display: block !important;}
+#print_disclaimer {display: block !important; margin-top: 20px; padding:20px; border:2px solid #000; background:#ddd; }
+
+
+#pageFunctions {display: none;}
+
+#phone { display:none; }
